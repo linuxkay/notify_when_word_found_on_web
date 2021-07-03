@@ -1,6 +1,6 @@
 #! python3
 # Original code author at https://www.codementor.io/@gergelykovcs/how-and-why-i-built-a-simple-web-scrapig-script-to-notify-us-about-our-favourite-food-fcrhuhn45
-import bs4, requests
+import bs4, requests, smtpli
 
 # ------------------- E-mail list ------------------------
 toAddress = ['example1@email.com','example2@email.com']
@@ -25,6 +25,15 @@ for food in foods:
             available = True
 
 if available == True:
+    conn = smtplib.SMTP('smtp.gmail.com', 587) # smtp address and port
+    conn.ehlo() # call this to start the connection
+    conn.starttls() # starts tls encryption. When we send our password it will be encrypted.
+    conn.login('youremail@gmail.com, 'appkey')
+    conn.sendmail('youremail@gmail.com', toAddress, 'Subject: Borzaska Alert!\n\nAttention!\n\nYour favourite food is available today!\n\nBon apetite!:\nFood Notifier V1.0')
+    conn.quit()
+    print('Sent notificaton e-mails for the following recipients:\n')
+    for i in range(len(toAddress)):
+        print(toAddress[i])
     print('found')
 else:
     print('not found')
