@@ -1,4 +1,5 @@
 #! python3
+# Original code author at https://www.codementor.io/@gergelykovcs/how-and-why-i-built-a-simple-web-scrapig-script-to-notify-us-about-our-favourite-food-fcrhuhn45
 import bs4, requests
 
 # ------------------- E-mail list ------------------------
