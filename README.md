@@ -32,6 +32,8 @@ pip install requests smtblib BeautifulSoup4
 
 ## ToDo
 
+Create anaconda env.
+
 ## Licence
 [MIT]
 
