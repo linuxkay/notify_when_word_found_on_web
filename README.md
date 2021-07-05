@@ -34,6 +34,8 @@ pip install requests smtblib BeautifulSoup4
 
 Create anaconda env.
 
+Run on second and third Wednesday.
+
 ## Licence
 [MIT]
 
