@@ -34,7 +34,7 @@ pip install requests smtblib BeautifulSoup4
 
 Create anaconda env.
 
-check date and parse string just for "Year-and-Month" 
+Check date and parse string just for "Year-and-Month" 
 
 Expamle 2021-07
 
