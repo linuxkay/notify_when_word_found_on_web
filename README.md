@@ -36,7 +36,7 @@ Create anaconda env.
 
 Check date and parse string just for "Year-and-Month" 
 
-Expamle 2021-07
+Expamle 2021-07-22 --> 2021-07
 
 Run on second and third Wednesday in cron.
 
