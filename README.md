@@ -38,7 +38,7 @@ Check date and parse string just for "Year-and-Month"
 
 Expamle 2021-07
 
-Run on second and third Wednesday.
+Run on second and third Wednesday in cron.
 
 ## Licence
 [MIT]
