@@ -38,6 +38,12 @@ conda config --append channels conda-forge
 # Install package independently.
 conda install BeautifulSoup4
 
+#pip and anaconda setup
+
+use requirements.txt for pip.
+
+user myenv.yaml for Anaconda.
+
 ## Usage
 
 ## Contributions
