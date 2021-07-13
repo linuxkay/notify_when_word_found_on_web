@@ -44,6 +44,18 @@ use requirements.txt for pip.
 
 use myenv.yaml for Anaconda.
 
+Run following command for setup using myenv.yaml.
+
+`conda env create -f=myenv.yaml`
+
+Export installed package on conda by
+
+`conda env export > myenv.yaml`
+
+For pip export,
+
+`conda list -e > requirements.txt`
+
 ## Usage
 
 ## Contributions
