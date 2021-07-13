@@ -22,23 +22,23 @@ pip install requests smtblib BeautifulSoup4
 
 anaconda setup
 
-# install python3.5 with the name wordbot
+## install python3.5 with the name wordbot
 conda create -n wordbot python=3.5
 
 conda infor -e // check newly created environment.
 
-#activate wordbot
+##activate wordbot
 
 conda activate wordbot
 
-#add repository for more search/install
+##add repository for more search/install
 
 conda config --append channels conda-forge
 
-# Install package independently.
+## Install package independently.
 conda install BeautifulSoup4
 
-#pip and anaconda setup
+##pip and anaconda setup
 
 use requirements.txt for pip.
 
