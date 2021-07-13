@@ -1,10 +1,15 @@
 #! python3
 # Original code author at https://www.codementor.io/@gergelykovcs/how-and-why-i-built-a-simple-web-scrapig-script-to-notify-us-about-our-favourite-food-fcrhuhn45
-import bs4, requests, smtpli
+import bs4, requests, smtplib
+from time import localtime, strftime
 
 # ------------------- E-mail list ------------------------
-toAddress = ['example1@email.com','example2@email.com']
+#toAddress = ['example1@email.com','example2@email.com']
 # --------------------------------------------------------
+
+#Time
+
+nowtime = strftime("%Y-%m", localtime())
 
 #Download page
 getPage = requests.get('https://www.catalog.update.microsoft.com/Search.aspx?q=KB4598457')
@@ -14,7 +19,8 @@ getPage.raise_for_status() #if error it will stop the program
 menu = bs4.BeautifulSoup(getPage.text, 'html.parser')
 foods = menu.select('.resultsbottomBorder.resultspadding')
 
-the_one = '2021-07' # This is the name of the food you are looking for
+#the_one = '2021-06' # This is the name of the food you are looking for
+the_one = nowtime # This is the name of the food you are looking for
 flength = len(the_one)
 available = False
 
@@ -35,5 +41,7 @@ if available == True:
     for i in range(len(toAddress)):
         print(toAddress[i])
     print('found')
+    print(the_one)
 else:
     print('not found')
+    print(the_one)
