@@ -27,22 +27,22 @@ conda create -n wordbot python=3.5
 
 conda infor -e // check newly created environment.
 
-##activate wordbot
+## activate wordbot
 
 conda activate wordbot
 
-##add repository for more search/install
+## add repository for more search/install
 
 conda config --append channels conda-forge
 
 ## Install package independently.
 conda install BeautifulSoup4
 
-##pip and anaconda setup
+## pip and anaconda setup
 
 use requirements.txt for pip.
 
-user myenv.yaml for Anaconda.
+use myenv.yaml for Anaconda.
 
 ## Usage
 
