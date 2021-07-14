@@ -92,7 +92,7 @@ Ideally run in systemctl.
 
 ~~Create anaconda env.~~ 7/13/2021
 
-~~Check date and parse string just for "Year-and-Month" ~~ 7/12/2021
+~~Check date and parse string just for "Year-and-Month"~~ 7/12/2021
 
 ~~Expamle 2021-07-22 --> 2021-07~~ 7/12/2021
 
