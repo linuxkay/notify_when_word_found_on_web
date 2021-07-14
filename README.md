@@ -58,7 +58,7 @@ For pip export,
 
 ## Usage
 
-Test run
+Test run in regular environment
 
 `conda activte wordbot`
 
@@ -70,7 +70,7 @@ Exit conda env
 
 `conda deactivate`
 
-Test run
+Run wordbot
 
 `home/pi/berryconda3/envs/wordbot/bin/python3 /home/pi/Workspace/word_notification_v1.py`
 
