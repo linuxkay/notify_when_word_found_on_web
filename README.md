@@ -78,7 +78,7 @@ Run on third Thursday at 9AM
 
 `0 9 15-21 * *  [ $(date "+\%w") -eq 4 ] && /home/pi/berryconda3/envs/wordbot/bin/python3 /home/pi/Workspace/word_notification_v1.py > /var/tmp/wordbot.log 2>&1`
 
-Ideally run in systemctl.
+Ideally set timer on systemctl.
 
 ## Contributions
 
