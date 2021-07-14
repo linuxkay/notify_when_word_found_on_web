@@ -58,6 +58,28 @@ For pip export,
 
 ## Usage
 
+Running in cron
+
+Log stored at /var/tmp/wordbot.log
+
+Run on second Wednesday at 9AM
+
+0 9 8-14 * *  [ $(date "+\%w") -eq 3 ] && /home/pi/berryconda3/envs/wordbot/bin/python3 /home/pi/Workspace/word_notification_v1.py > /var/tmp/wordbot.log 2>&1
+
+Run on second Thursday at 9AM
+
+0 9 8-14 * *  [ $(date "+\%w") -eq 4 ] && /home/pi/berryconda3/envs/wordbot/bin/python3 /home/pi/Workspace/word_notification_v1.py > /var/tmp/wordbot.log 2>&1
+
+Run on thrid Wednesday at 9 AM
+
+0 9 15-21 * *  [ $(date "+\%w") -eq 3 ] && /home/pi/berryconda3/envs/wordbot/bin/python3 /home/pi/Workspace/word_notification_v1.py > /var/tmp/wordbot.log 2>&1
+
+Run on third Thursday at 9AM
+
+0 9 15-21 * *  [ $(date "+\%w") -eq 4 ] && /home/pi/berryconda3/envs/wordbot/bin/python3 /home/pi/Workspace/word_notification_v1.py > /var/tmp/wordbot.log 2>&1
+
+Ideally run in systemctl.
+
 ## Contributions
 
 ## Updates
@@ -68,13 +90,13 @@ For pip export,
 
 ## ToDo
 
-Create anaconda env.
+~~Create anaconda env.~~ 7/13/2021
 
-Check date and parse string just for "Year-and-Month" 
+~~Check date and parse string just for "Year-and-Month" ~~ 7/12/2021
 
-Expamle 2021-07-22 --> 2021-07
+~~Expamle 2021-07-22 --> 2021-07~~ 7/12/2021
 
-Run on second and third Wednesday in cron.
+~~Run on second and third Wednesday in cron.~~ 7/14/2021
 
 ## Licence
 [MIT]
