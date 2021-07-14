@@ -58,6 +58,22 @@ For pip export,
 
 ## Usage
 
+Test run
+
+`conda activte wordbot`
+
+Find out python path on anaconda`
+
+`which python`
+
+Exit conda env
+
+`conda deactivate`
+
+Test run
+
+`home/pi/berryconda3/envs/wordbot/bin/python3 /home/pi/Workspace/word_notification_v1.py`
+
 Running in cron
 
 Log stored at /var/tmp/wordbot.log
