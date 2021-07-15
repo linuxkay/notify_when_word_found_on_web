@@ -104,6 +104,10 @@ Ideally set timer on systemctl.
 
 ## Feature upgrades
 
+Scrap url using scarp_url.py
+
+use selenium to get dynamic URL.
+
 ## ToDo
 
 ~~Create anaconda env.~~ 7/13/2021
