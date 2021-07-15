@@ -104,7 +104,7 @@ Ideally set timer on systemctl.
 
 ## Feature upgrades
 
-Scrap url using scarp_url.py
+Scrap url using scarp_url.py  Source https://mmsankosho.com/nlp-1/
 
 use selenium to get dynamic URL.
 
