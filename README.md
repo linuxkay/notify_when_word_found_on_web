@@ -96,6 +96,24 @@ Run on third Thursday at 9AM
 
 Ideally set timer on systemctl.
 
+## chromedriver setup on ubuntu
+
+First uninstall selenium and chromedriver
+
+`pip3 uninstall selenium`
+
+`pip3 uninstall chromedriver`
+
+Install selenium from ubuntu repository(it will install chromedriver also).
+
+`sudo apt -y install python3-selenium`
+
+Optional install webdriver-manager
+
+`pip3 install webdriver-manager`
+
+Reference https://www.mt-megami.com/article/ubuntu-python3-selenium-googlechrome-scraping
+
 ## Contributions
 
 ## Updates
