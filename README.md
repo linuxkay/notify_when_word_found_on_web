@@ -154,8 +154,15 @@ https://qiita.com/Azunyan1111/items/b161b998790b1db2ff7a
 
 ## Memo
 
+getlinks_by_accessing_url.py is based on scrape_url.py and test_popup_js.py
+
 ## Feature upgrades
 
+create word_notification_v2 and make sure it can open download link
+
+combine word_notification_v1.py and v
+
+add headless option
 
 ## ToDo
 
@@ -175,4 +182,3 @@ https://qiita.com/Azunyan1111/items/b161b998790b1db2ff7a
 ## Author
 
 [linuxkay](https://github.com/linuxkay)
-~                                        
