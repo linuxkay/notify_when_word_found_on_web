@@ -167,7 +167,7 @@ https://qiita.com/Azunyan1111/items/b161b998790b1db2ff7a
 
 ~~Run on second and third Wednesday in cron.~~ 7/14/2021
 
-~~use selenium to get dynamic URL.~~ 7/17/2017
+~~use selenium to get dynamic URL.~~ 7/17/2017 [getlinks_by_accessing_url.py](https://github.com/linuxkay/notify_when_word_found_on_web/blob/main/getlinks_by_accessing_url.py)
 
 ## Licence
 [MIT]
