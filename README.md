@@ -112,7 +112,7 @@ Optional install webdriver-manager
 
 `pip3 install webdriver-manager`
 
-## Reference 
+## References
 
 https://www.mt-megami.com/article/ubuntu-python3-selenium-googlechrome-scraping
 
@@ -131,9 +131,11 @@ https://www.it-swarm-ja.com/ja/python/python%E3%81%A7selenium%E3%82%92%E4%BD%BF%
 https://www.seleniumqref.com/api/python/window_get/Python_window_handles.html
 
 **scrap url**
+
 Scrap url using scarp_url.py  Source https://mmsankosho.com/nlp-1/
 
 **About xpath**
+
 https://qiita.com/rllllho/items/cb1187cec0fb17fc650a
 
 https://www.octoparse.jp/blog/xpath-introduction/
