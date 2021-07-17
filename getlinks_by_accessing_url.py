@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 import io
 import re
 
-
 browser = webdriver.Chrome()
 # set target url.
 browser.get("https://www.catalog.update.microsoft.com/Search.aspx?q=KB4598457")
