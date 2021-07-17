@@ -126,11 +126,11 @@ https://qiita.com/rosuke/items/04d86316cbd733d4b6e8
 
 https://www.it-swarm-ja.com/ja/python/python%E3%81%A7selenium%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AEhref%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%97%E3%81%BE%E3%81%99/822552195/
 
-**window handling**
+**Window handling**
 
 https://www.seleniumqref.com/api/python/window_get/Python_window_handles.html
 
-**scrap url scarp_url.py  Source**
+**Scrap url scarp_url.py  Source**
 
 https://mmsankosho.com/nlp-1/
 
