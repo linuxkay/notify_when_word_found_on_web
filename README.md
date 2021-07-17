@@ -130,9 +130,9 @@ https://www.it-swarm-ja.com/ja/python/python%E3%81%A7selenium%E3%82%92%E4%BD%BF%
 
 https://www.seleniumqref.com/api/python/window_get/Python_window_handles.html
 
-**scrap url**
+**scrap url scarp_url.py  Source**
 
-Scrap url using scarp_url.py  Source https://mmsankosho.com/nlp-1/
+https://mmsankosho.com/nlp-1/
 
 **About xpath**
 
