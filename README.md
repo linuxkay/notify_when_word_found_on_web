@@ -158,6 +158,16 @@ Status under development.
 
 getlinks_by_accessing_url.py is based on scrape_url.py and test_popup_js.py
 
+**・find.element_by_class**
+
+https://www.geeksforgeeks.org/find_element_by_class_name-driver-method-selenium-python/
+
+**・get xpath from table in dynamic content**
+
+https://stackoverflow.com/questions/58226330/how-to-get-xpath-of-data-in-the-columns-in-this-dynamic-webtablepython-selenium
+
+https://stackoverflow.com/questions/56712396/search-for-a-string-in-a-dynamic-table-using-selenium/56712473
+
 ## Feature upgrades
 
 create word_notification_v2 and make sure it can open download link
