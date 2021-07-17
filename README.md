@@ -116,31 +116,31 @@ Optional install webdriver-manager
 
 https://www.mt-megami.com/article/ubuntu-python3-selenium-googlechrome-scraping
 
-**For changing windows**
+**・For changing windows**
 
 https://stackoverflow.com/questions/66568508/selenium-switch-to-popup-window
 
-**Loop**
+**・Loop**
 
 https://qiita.com/rosuke/items/04d86316cbd733d4b6e8
 
 https://www.it-swarm-ja.com/ja/python/python%E3%81%A7selenium%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AEhref%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%97%E3%81%BE%E3%81%99/822552195/
 
-**Window handling**
+**・Window handling**
 
 https://www.seleniumqref.com/api/python/window_get/Python_window_handles.html
 
-**Scrap url scarp_url.py  Source**
+**・Scrap url scarp_url.py  Source**
 
 https://mmsankosho.com/nlp-1/
 
-**About xpath**
+**・About xpath**
 
 https://qiita.com/rllllho/items/cb1187cec0fb17fc650a
 
 https://www.octoparse.jp/blog/xpath-introduction/
 
-**Work on errors**
+**・Work on errors**
 
 https://stackoverflow.com/questions/61299653/attributeerror-webdriver-object-has-no-attribute-switch-to-window-handles
 
@@ -151,6 +151,8 @@ https://qiita.com/Azunyan1111/items/b161b998790b1db2ff7a
 ## Contributions
 
 ## Updates
+
+Status under development.
 
 ## Memo
 
