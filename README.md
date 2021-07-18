@@ -170,11 +170,11 @@ https://stackoverflow.com/questions/56712396/search-for-a-string-in-a-dynamic-ta
 
 ## Feature upgrades
 
-create word_notification_v2 and make sure it can open download link
+Create word_notification_v2 and make sure it can open download link
 
-combine word_notification_v1.py and v
+Combine word_notification_v1.py and v
 
-add headless option
+Add headless option.
 
 ## ToDo
 
