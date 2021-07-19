@@ -176,6 +176,8 @@ Combine word_notification_v1.py and v
 
 Add headless option.
 
+Add redis.
+
 ## ToDo
 
 ~~Create anaconda env.~~ 7/13/2021
