@@ -172,9 +172,7 @@ https://stackoverflow.com/questions/56712396/search-for-a-string-in-a-dynamic-ta
 
 Create word_notification_v2 and make sure it can open download link
 
-Combine word_notification_v1.py and v
-
-Add headless option.
+Combine word_notification_v1.py and getlinks_by_accesing_url.py 
 
 Add redis.
 
@@ -189,6 +187,8 @@ Add redis.
 ~~Run on second and third Wednesday in cron.~~ 7/14/2021
 
 ~~use selenium to get dynamic URL.~~ 7/17/2017 [getlinks_by_accessing_url.py](https://github.com/linuxkay/notify_when_word_found_on_web/blob/main/getlinks_by_accessing_url.py)
+
+~~Add headless option.~~ 7/21/2021
 
 ## Licence
 [MIT]
