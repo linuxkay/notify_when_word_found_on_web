@@ -7,7 +7,12 @@ from bs4 import BeautifulSoup
 import io
 import re
 
-browser = webdriver.Chrome()
+# set options
+options = webdriver.ChromeOptions()
+# set headless
+options.add_argument('--headless')
+browser = webdriver.Chrome(options=options)
+#browser = webdriver.Chrome()
 # set target url.
 browser.get("https://www.catalog.update.microsoft.com/Search.aspx?q=KB4598457")
 # set static xpath
