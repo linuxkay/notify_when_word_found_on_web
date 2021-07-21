@@ -174,7 +174,7 @@ Create word_notification_v2 and make sure it can open download link
 
 Combine word_notification_v1.py and getlinks_by_accesing_url.py 
 
-Add redis.
+Add redis. Stop checking when word found.
 
 ## ToDo
 
